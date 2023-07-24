@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format("woff2-variations");
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("Fira_Sans/FireSans-SemiBold");
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("Lato/Lato-Bold.ttf");
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+
+body {
+  background: linear-gradient(25deg, rgba(1,0,17,1) 0%, rgba(4,4,60,1) 35%, rgba(6,70,83,1) 100%);
+  color: #ffffe6;
+}
+
+body > * {
+    margin: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+    font-family: "Lato", sans-serif;
+}
+
+div.header {
+    display: flex;
+    justify-content: space-between;
+    --header-main-color: #add4fa;
+}
+
+div.header > * {
+    text-align: center;
+    font-size: 30px;
+    margin: auto 1%;
+    font-family: "Fira Sans", sans-serif;
+}
+
+div.header > h1 {
+    flex-grow: 1;
+}
+
+
+div.header > h2 {
+    font-size: 15px;
+}
+
+div.header > a {
+    color: var(--header-main-color);
+    padding: 5px;
+}
+
+div.about > img {
+    display: none;
+}
+
+div.products {
+    display: flex;
+    gap: 25px;
+}
+
+div.products > * {
+    flex: 1 1 0;
+}
+
+div.products img {
+    width: 100%;
+    height: auto;
+}
+
+div.footer {
+    display: flex;
+    gap: 20px;
+}
+
+div.footer > * {
+    flex: 1 0 0;
+}
+
+div.footer-section > h4 {
+    text-align: center
+}
+    
+div.flex-wrap-link {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: auto;
+}
+
+div.footer a {
+    color: #c4ffd9
+}
+
+div.flex-wrap-link > * {
+    flex: 1 1 calc(50% - 10px);
+    text-align: center;
+    margin: auto 0;
+}

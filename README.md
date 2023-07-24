@@ -1,2 +1,2 @@
 # anonyedu.github.io
-Github Pages
+Github Pages repository for anonyedu.github.io
